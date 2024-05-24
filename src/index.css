@@ -1,0 +1,47 @@
+html {
+    font-family: "Quicksand", sans-serif;
+    line-height: 1.5;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    min-height: 80rem;
+    overflow-x: hidden;
+}
+
+
+
+#Course_Advertising_Sliding {
+    position: absolute;
+    background-color: #B894C2;
+    height: 14rem;
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 500px;
+}
+
+#Course_Advertising_Sliding h3,
+p,
+button {
+    position: relative;
+    top: 20px;
+    color: white;
+
+}
+
+#Course_Advertising_Sliding button {
+    border-radius: 20px;
+    border-width: 5px;
+    background-color: #B894C2;
+}
+
+#LOWER {
+    position: relative;
+    top: 16rem;
+    background-color: #B894C2;
+}
+
+#LOWER img {
+    border-radius: 50px;
+}
