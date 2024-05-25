@@ -1,7 +1,7 @@
-import "../index.css";
 import "bootstrap/dist/css/bootstrap.css";
+import "./Courses.css";
 
-export default function Course_UpperComponent({
+export default function Course_Advertising({
   title,
   description,
   buttonFunctionName,
@@ -9,7 +9,7 @@ export default function Course_UpperComponent({
   return (
     <div id="Course_Advertising_Sliding">
       <h3>{title}</h3>
-      <p className="col-md-4">{description}</p>
+      <p>{description}</p>
       <button type="button">{buttonFunctionName}</button>
     </div>
   );

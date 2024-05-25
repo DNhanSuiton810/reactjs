@@ -1,0 +1,21 @@
+* {
+    margin: 8px;
+}
+
+#Course_Advertising_Sliding {
+    background: linear-gradient(to right, #C0CDD5, #ECEDE3, #FFFCEB);
+    height: 30vh;
+    border: 2px solid gray;
+    border-radius: 20px;
+}
+
+
+button {
+    background: transparent;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+p {
+    text-align: left;
+}

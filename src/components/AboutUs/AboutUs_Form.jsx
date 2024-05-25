@@ -1,5 +1,4 @@
 import "bootstrap/dist/css/bootstrap.css";
-import "../index.css";
 
 export default function AboutUs_Form({ title, name, email, feedback }) {
   return (
