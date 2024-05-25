@@ -5,67 +5,24 @@ import Course_UpperComponent from "./components/Course_UpperComponent.jsx";
 import Course_LowerComponent from "./components/Course_LowerComponent.jsx";
 import AboutUs_Form from "./components/AboutUs_Form.jsx";
 import AboutUs_Footer from "./components/AboutUs_Footer.jsx";
+import Page from "./components/Course_UpperSlider.jsx";
 
 function Course_FullPage() {
   return (
-    <div id="Course_Page">
-      <Course_UpperComponent
-        title={COURSE_UPPER[0].title}
-        description={COURSE_UPPER[0].description}
-        buttonFunctionName={COURSE_UPPER[0].buttonFunctionName}
-      />
-      <div></div>
-      <div
-        id="LOWER"
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          justifyContent: "space-between",
-        }}
-      >
-        <Course_LowerComponent
-          image={COURSE_LOWER[0].image}
-          title={COURSE_LOWER[0].title}
-          description={COURSE_LOWER[0].description}
-        />
-        <Course_LowerComponent
-          image={COURSE_LOWER[1].image}
-          title={COURSE_LOWER[1].title}
-          description={COURSE_LOWER[1].description}
-        />
-        <Course_LowerComponent
-          image={COURSE_LOWER[2].image}
-          title={COURSE_LOWER[2].title}
-          description={COURSE_LOWER[2].description}
-        />
-        <Course_LowerComponent
-          image={COURSE_LOWER[3].image}
-          title={COURSE_LOWER[3].title}
-          description={COURSE_LOWER[3].description}
-        />
-      </div>
+    <div id="Courses_Page">
+
     </div>
   );
 }
 
 function AboutUs_FullPage() {
   return (
-    <AboutUs_Form
-      title="Contact Us"
-      name="Name"
-      email="Email"
-      feedback="Feedback"
-    />
+  
   );
 }
 
 function App() {
-  return (
-    <div id="new">
-      <Course_FullPage />
-      <AboutUs_FullPage />
-    </div>
-  );
+  return <div id="new"></div>;
 }
 
 export default App;
